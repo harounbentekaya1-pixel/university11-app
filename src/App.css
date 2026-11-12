@@ -1,0 +1,92 @@
+
+.student-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 4px 8px rgba(220, 212, 212, 0.05);
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h1 {
+  font-size: 20px;
+  color: #426f86;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.card p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+
+.student-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
+
+.card-actions {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.card-danger {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+
+.card button {
+  padding: 6px 10px;
+  font-size: 13px;
+  border: none;
+  border-radius: 4px;
+  background-color: #70b3e8;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.card button:hover {
+  background-color: #426f86;
+  width: auto;
+  height: auto;
+  font-size: 13px;
+}
+
+
+.card .btn-delete {
+  background-color: #e06d6d;
+}
+
+.card .btn-delete:hover {
+  background-color: #c94c4c;
+}
+body {
+  background-color: #808080; 
+}
